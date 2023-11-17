@@ -13,6 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let modalState = {}
     let deadline = '2023-07-25';
 
+
     changeModalState(modalState)
     modals(modalState);
     tabs('.glazing_slider ', '.glazing_block', '.glazing_content', 'active');
